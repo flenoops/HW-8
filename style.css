@@ -1,0 +1,60 @@
+.lessons-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.lessons-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lessons-container ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lessons-container li:nth-child(1) {
+    color: blue;
+}
+
+.lessons-container li:nth-child(1):hover {
+    background-color: lightblue;
+}
+
+.lessons-container li:nth-child(2) {
+    color: green;
+}
+
+.lessons-container li:nth-child(2):first-letter {
+    font-size: 150%;
+}
+
+.lessons-container li:nth-child(3) {
+    color: red;
+}
+
+.lessons-container li:nth-child(3):last-child {
+    font-weight: bold;
+}
+
+.lessons-container li:nth-child(4) {
+    color: purple;
+}
+
+.lessons-container li:nth-child(4):not(:last-of-type) {
+    text-decoration: line-through;
+}
+
+.lessons-container li:nth-child(5) {
+    color: orange;
+}
+
+.lessons-container li:nth-child(5):nth-of-type(odd) {
+    transform: rotate(12deg);
+}
